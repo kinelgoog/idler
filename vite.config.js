@@ -10,9 +10,7 @@ export default defineConfig({
   preview: {
     host: true,
     port: process.env.PORT || 3000,
-    allowedHosts: [
-      'idler-pil7.onrender.com',
-      '.onrender.com' // разрешает все поддомены onrender.com
-    ]
+    allowedHosts: true // разрешает все хосты
   }
 })
+
